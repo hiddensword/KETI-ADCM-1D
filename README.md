@@ -6,7 +6,7 @@
 
 
 # Odroid 이미지
-- Ubuntu 16.04
+- Ubuntu 16.04 `ubuntu-16.04.3-4.14-mate-odroid-xu4-20171212.img`
 
 
 # ROS 설치 관련 자료
