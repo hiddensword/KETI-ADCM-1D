@@ -67,3 +67,6 @@
 	echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 	source ~/.bashrc
 ~~~
+
+
+# [ROS Tutorial 한글](http://wiki.ros.org/ko/ROS/Tutorials/)
