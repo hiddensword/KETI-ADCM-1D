@@ -2,11 +2,11 @@
 
 
 # 프로세서 모듈
-- Odroid XU4
+- HardKernel co., Ltd. [Odroid XU4](https://www.hardkernel.com/main/products/prdt_info.php?g_code=G143452239825)
 
 
 # Odroid 이미지
-- Ubuntu 16.04 `ubuntu-16.04.3-4.14-mate-odroid-xu4-20171212.img`
+- [Ubuntu 16.04](https://odroid.in/ubuntu_16.04lts/) `ubuntu-16.04.3-4.14-mate-odroid-xu4-20171212.img`
 
 
 # ROS 설치 관련 자료
