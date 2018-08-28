@@ -45,14 +45,15 @@
 	sudo apt-get install ros-kinetic-desktop-full
 ~~~
 
-	- 이 단계에서 아래와 같은 에러 메시지를 받을 수 있음.
+4-1. Install everything에서 발생할 수 있는 locking 문제
+- 이 단계에서 아래와 같은 에러 메시지를 받을 수 있음.
 ~~~
-		E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+	E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
 ~~~
-	- 16.04가 자동으로 upbrade를 check하기 때문임. disable하기 위해서 아래의 코드를 터미널에 입력하고, 재부팅.
+- 16.04가 자동으로 upbrade를 check하기 때문임. disable하기 위해서 아래의 코드를 터미널에 입력하고, 재부팅.
 ~~~
-		$ sudo systemctl disable apt-daily.service # disable run when system boot
-		$ sudo systemctl disable apt-daily.timer   # disable timer run
+	$ sudo systemctl disable apt-daily.service # disable run when system boot
+	$ sudo systemctl disable apt-daily.timer   # disable timer run
 ~~~
 
 5. Initialize rosdep
