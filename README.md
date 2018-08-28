@@ -64,6 +64,6 @@
 
 6. Environment setup
 ~~~
-	echo "source /opt/ros/lunar/setup.bash" >> ~/.bashrc
+	echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 	source ~/.bashrc
 ~~~
